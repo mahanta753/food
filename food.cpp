@@ -8,21 +8,21 @@ int main() {
     scanf("%c",&o);
     switch(o)
     { case '1':
-    	 printf("\nFood item - French Fries \nPrice - Rs 99");
+    	       printf("\nFood item - French Fries \nPrice - Rs 99");
 	       break;
     	 
       case '2':
-	  	  printf("\nFood item - Pasta \nPrice - Rs 179");
-	  	  break;
+	       printf("\nFood item - Pasta \nPrice - Rs 179");
+	       break;
 	  case '3':
-	  	  printf("\nFood item-Sandwich \nPrice - Rs 149");
-	      break;
+	        printf("\nFood item-Sandwich \nPrice - Rs 149");
+	        break;
 	  case '4':
 	       printf("\nFood item - Pizza \nPrice - Rs 239");
-    	   break;
+    	       break;
 	  case '5':
 	        printf("\nFood item - Burger \n Price - Rs 129");
-	  	    break;
+	        break;
    default:
             printf("Error! operator is not correct"); }
 return 0;
